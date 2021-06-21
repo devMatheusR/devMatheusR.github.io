@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Links do projeto e externos-->
+
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Mali:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Short+Stack&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <!--Fim Fonts-->
+
+    <!--Fim links-->
+
+    <title>Portfólio</title>
+</head>
+<body>
+
+    <!--Começo cabeçalho-->
+    <header>
+        
+        <!--Menu navegação-->
+        <nav class="navbar navbar-expand-xl navbar-dark">
+            <a class="navbar-brand" href="#">
+                <h1>devMatheusRamos</h1>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end"  id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Sobre</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Projetos</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#footer">Contato</a>
+                    </li> 
+                </ul>          
+            </div>  
+        </nav>
+         <!--Fim menu navegação-->
+
+        <div class="split-row"></div>
+
+
+    </header>
+    <!--Fim Cabeçalho-->
+
+
+    <!--Main página-->
+    <main>
+
+        <!--Apresentação-->
+        <h2 id="portfolio" class="portfolio-text ml-5 mt-5"><i class="far fa-file-code"></i>Portfólio</h2>
+
+        <div class="container mt-5 mb-5 apresentacao">
+            <div class="media border p-3">
+                <img src="images/artificial-intelligence-3382507_640.jpg" alt="" class="mr-3 mt-3 rounded-pill" style="width:150px;">
+                <div class="media-body">
+                    <h4>Matheus Ramos</h4>
+                    <p>‣Apaixonado por tecnologia desde sempre. Aos 12 anos me apaixonei por programação conciliando a robótica. Desta forma, participei de vários torneios e ganhei conhecimento e habilidades com as experiências e os prêmios. Atualmente busco conhecimento e aprimoramento em linguagens de programação.</p>      
+                </div>
+            </div>
+        </div>
+        <!--Fim apresentação-->
+
+        <!--Barras de skills-->
+        <div class="skills">
+            <h2 class="habilidades">Habilidades</h2>
+            <li>
+                <h3 class="skill-name">HTML</h3><span class="bar"><span class="html"></span></span>
+            </li>
+            <li>
+                <h3 class="skill-name">CSS</h3><span class="bar"><span class="css"></span></span>
+            </li>
+            <li>
+                <h3 class="skill-name">JAVA</h3><span class="bar"><span class="java"></span></span>
+            </li>
+            <li>
+                <h3 class="skill-name">JAVASCRIPT</h3><span class="bar"><span class="javascript"></span></span>
+            </li>
+        </div>
+         <!--Fim Barras de skills-->
+
+        <div class="texto-central">Alguns projetos</div>
+
+        <!--Carrossel-->
+        <div id="demo" class="carousel slide" data-ride="carousel" data-interval="2000">
+            <ul class="carousel-indicators">
+                <li data-target="#demo" data-slide-to="0" class="active"></li>
+                <li data-target="#demo" data-slide-to="1"></li>
+                <li data-target="#demo" data-slide-to="2"></li>
+            </ul>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <a href="file:///C:/Users/mathe/OneDrive/Documentos/CURSOS/Curso%20DS/PROGRAMAÇÃO%20WEB/Projeto_Final/PW/index.html" target="_blank"><img src="images/pw-site.jpg" alt="loja" width="500px" height="600px"></a>
+                    <div class="carousel-caption">
+                        <h3 class="texto-carousel">Loja Gamer</h3>
+                    </div>   
+                </div>
+                <div class="carousel-item">
+                    <a href="file:///C:/Users/mathe/OneDrive/Documentos/CURSOS/Curso%20DS/PROGRAMAÇÃO%20WEB/calculadora/index.html" target="_blank"><img src="images/calculadora.jpg" alt="calculadora" width="500px" height="600px"></a>
+                    <div class="carousel-caption">
+                        <h3 class="texto-carousel">Calculadora sem eval</h3>
+                    </div>   
+                </div>
+                <div class="carousel-item">
+                    <img src="images/gymapp.jpg" alt="gymapp" width="500px" height="600px">
+                    <div class="carousel-caption">
+                        <h3 class="texto-carousel">Gym App</h3>
+                    </div>   
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#demo" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+        </div>
+        <!--Fim Carrossel-->
+
+    </main>
+    <!--Fim página-->
+    
+    <!--Começo rodapé-->
+    
+    <footer id="rodape">
+        <footer class="footer bg-dark text-center text-white">
+            <div class="container pt-5 pb-0">
+                <section class="mb-4">
+                    <!-- Linkedin -->
+                    <a class="botaordp btn btn-outline-light btn-floating m-1" href="https://www.linkedin.com/in/devmatheusr/" role="button" target="_blank">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+            
+                    <!-- Github -->
+                    <a class="botaordp btn btn-outline-light btn-floating m-1" href="https://github.com/devMatheusR" role="button" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+
+                    <!--Email-->
+                    <a class="botaordp btn btn-outline-light btn-floating m-1" href="mailto:devmatheusr@gmail.com" role="button" target="_blank">
+                        <i class="fas fa-envelope-open-text"></i>
+                    </a>
+                    
+                    <!--Telefone-->
+                    <a class="telefone dropdown dropdown-toggle botaordp btn btn-outline-light btn-floating m-1" data-toggle="dropdown" href="" role="button">
+                        <i class="fas fa-phone">
+                            <div class="dropdown-menu"><center>71 9329839286</center></div>
+                        </i>
+                    </a>
+
+                </section>
+            </div>
+            
+            <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+                © 2021 Copyright : devMatheusR
+            </div>
+        </footer>
+    </footer>
+   
+    <!--Fim rodapé-->
+ 
+    
+<script type="text/javascript" src="script.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>

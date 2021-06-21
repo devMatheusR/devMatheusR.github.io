@@ -1,0 +1,188 @@
+header{
+    background-image: linear-gradient(45deg,#2a2c31, #6b6f72);
+}
+
+body{
+    background-image: linear-gradient(90deg,#494a4d, #83878a); 
+}
+
+h1::after{
+    content: '|';
+    margin-left: 5px;
+    opacity: 1;
+    animation: pisca .7s infinite;
+}
+
+@keyframes pisca {
+    0%, 100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+
+}
+
+.navbar-brand{
+    cursor: text;
+    font-family: 'Balsamiq Sans', cursive;
+    text-shadow: 3px 3px #03141f;
+}
+
+.nav-item{
+    text-align: center;
+    font-family: 'Short Stack', cursive;
+}
+
+.nav-link{
+    margin: 25px 0 ;
+    color: white;
+    font-size: 20px;
+}
+.nav-link:hover{
+    color: #506AD4;
+}
+
+.split-row{
+    height: 15px;
+    background-color: #003F63;
+}
+
+#porfolio{
+    padding: 1px;
+    color: #fff;
+}
+
+.apresentacao{
+    border-radius: 50px;
+    color: white;
+}
+
+.habilidades{
+    font-family: 'Mali', cursive;
+}
+
+.skills{
+    list-style: none;
+    padding: 0;
+    width: 40%;
+    margin: 60px auto;
+    color: white;
+}
+
+.skills li{
+    margin: 20px 0;
+}
+
+.skill-name{
+    font-size: 20px;
+    font-family: 'Short Stack', cursive;
+}
+
+.bar{
+    background: #353b48;
+    display: block;
+    height: 3px;
+    border: 1px solid rgba(0,0,0,0.3);
+    border-radius: 3px;
+    overflow: hidden;
+    box-shadow: 0 0 10px #054886b3;
+}
+
+.bar span{
+    height: 2px;
+    float: left;
+    background: #16c0eb;
+}
+
+.html{
+    width: 85%;
+    animation: html 4s;
+}
+
+.css{
+    width: 50%;
+    animation: css 5s;
+}
+
+.java{
+    width: 60%;
+    animation: java 6s;
+}
+
+.javascript{
+    width: 20%;
+    animation: javascript 7s;
+}
+
+@keyframes html {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 85%;
+    }
+}
+
+@keyframes css{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 50%;
+    }
+}
+
+@keyframes java{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 60%;
+    }
+}
+
+@keyframes javascript{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 20%;
+    }
+}
+
+
+
+.texto-central{
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    font-family: 'Mali', cursive;
+    text-shadow:2px 2px #2a2c31;
+}
+
+.carousel{
+    border-radius: 150px;
+    margin: 35px auto;
+    width: 500px;
+    height: 600px;
+}
+
+.carousel-item{
+    border-radius: 150px;
+    align-items: center;
+}
+
+.texto-carousel{
+    color: #882000;
+    text-shadow: 2px 2px #010615;
+}
+
+.telefone{
+    text-align: center;
+    font-family: 'Short Stack', cursive;
+}
+
+.fab, .fas{
+    font-size: 35px;
+}
